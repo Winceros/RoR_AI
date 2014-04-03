@@ -55,15 +55,15 @@ class Server:
         step = planner.readData('map.txt')
         z_start,x_start = int(z_start/step),int(x_start/step)
         planner.setStartAndGoal(x_start,z_start,yaw)
-        #self.path = planner.planPath()
-        #planner.showPath()
+        self.path = planner.planPath()
+        planner.showPath()
+        self.path = self.path[1::4]
         # for DEBUG :
         #self.path = [(x_start-2,z_start+2)]
         #self.path = [(x_start+2,z_start+2)]
-        self.path = [(x_start-4,z_start+4)]
-        #self.path = [(x_start+2,z_start-2),(x_start+2 -2,z_start-2 -2)]
+        #self.path = [(x_start-4,z_start+4)]
+        #self.path = [(x_start+4*i,z_start-4*i) for i in range(1,10)]
         #self.path = [(x_start,z_start),(x_start+2,z_start+2)]
-        #self.path = self.path[1::4]
         self.executor = local_planner.Executor(self.path,step,15,yaw)
         self.logPlannedPath(step)
         self.sock.send('ok')

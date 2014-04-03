@@ -114,17 +114,17 @@ class Executor:
         else:
             u_a = 0.0
 
+        # troubles with + and - turns. in RoR turn right is 1.0
         threatDeg = state['threatDeg']
         if threatDeg > 0:
-            u_fi = -1.0
-        else:
             u_fi = 1.0
+        else:
+            u_fi = -1.0
 
         return u_a, u_fi
 
     def getControlVector(self,state):
-
-        if state['threatDist'] < 0:
+        if state['threatDist'] > 0:
             return self.obstacleAvoidance(state)
         else:
             return self.goToGoal(state)
