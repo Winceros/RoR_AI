@@ -2,7 +2,7 @@ import time
 import sys
 import random
 import zmq
-import global_planner_a_star
+import global_planner
 import local_planner
 import math
 
@@ -51,8 +51,8 @@ class Server:
         yaw += 90
         if yaw < 0 :
             yaw = 270 + (90-(-yaw))
-        planner = global_planner_a_star.PlannerAstar()
-        step = planner.readData('map.txt')
+        planner = global_planner.GlobalPlanner()
+        step = planner.readDataFromRaw('C:\Users\Ildar_Gilmutdinov\Documents\Python projects\RoR_AI\heightmap_test1.raw')
         z_start,x_start = int(z_start/step),int(x_start/step)
         planner.setStartAndGoal(x_start,z_start,yaw)
         self.path = planner.planPath()

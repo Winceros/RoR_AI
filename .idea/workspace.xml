@@ -23,30 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="trash.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trash.py">
+      <file leaf-file-name="planner_test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planner_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="544">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="8" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.26153848" vertical-offset="816" max-vertical-offset="1955">
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global_planner_a_star.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global_planner_a_star.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1631" selection-end="1631" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="2669">
+            <state line="24" column="89" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -55,7 +35,43 @@
       <file leaf-file-name="local_planner.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/local_planner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="0" selection-start="3346" selection-end="3346" vertical-scroll-proportion="0.0" vertical-offset="1723" max-vertical-offset="2295">
+            <state line="40" column="0" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0" vertical-offset="599" max-vertical-offset="2227">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image_test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="83" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global_planner.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/global_planner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="25" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1768">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="0" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="956" max-vertical-offset="1853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a_star_search.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a_star_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="39" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.3629764" vertical-offset="395" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
@@ -79,8 +95,13 @@
         <option value="$PROJECT_DIR$/executor.py" />
         <option value="$PROJECT_DIR$/trash.py" />
         <option value="$PROJECT_DIR$/global_planner_a_star.py" />
-        <option value="$PROJECT_DIR$/local_planner.py" />
+        <option value="$PROJECT_DIR$/d_star_lite_search.py" />
         <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/local_planner.py" />
+        <option value="$PROJECT_DIR$/image_test.py" />
+        <option value="$PROJECT_DIR$/planner_test.py" />
+        <option value="$PROJECT_DIR$/global_planner.py" />
+        <option value="$PROJECT_DIR$/a_star_search.py" />
       </list>
     </option>
   </component>
@@ -122,7 +143,7 @@
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/python/ROR/HM_processing.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/planner_test.py" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -137,7 +158,7 @@
       <recent name="C:\Users\Ildar_Gilmutdinov\Documents\Python projects\RoR_AI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.server">
+  <component name="RunManager" selected="Python.planner">
     <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,7 +312,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="RoR_AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/global_planner_a_star.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/planner_test.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -311,7 +332,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="RoR_AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trash.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/planner_test.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -319,10 +340,31 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="image_test" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:/Python27/python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="RoR_AI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.server" />
       <item index="1" class="java.lang.String" itemvalue="Python.planner" />
       <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.image_test" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -353,17 +395,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.57119477" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4070278" sideWeight="0.5319149" order="3" side_tool="false" content_ui="tabs" x="0" y="242" width="1366" height="244" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5124451" sideWeight="0.5319149" order="3" side_tool="false" content_ui="tabs" x="0" y="242" width="1366" height="244" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4070278" sideWeight="0.4680851" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5124451" sideWeight="0.4680851" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -389,50 +431,16 @@
           <url>file://$USER_HOME$/Downloads/python/ROR/HM_processing.py</url>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/image_test.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="280" />
+      <option name="time" value="315" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/python/ROR/HM_processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="6" selection-start="2514" selection-end="2514" vertical-scroll-proportion="1.5479876" vertical-offset="1166" max-vertical-offset="1785">
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="0" selection-start="3830" selection-end="3830" vertical-scroll-proportion="0.33216783" vertical-offset="1867" max-vertical-offset="22066" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/cbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.33216783" vertical-offset="269" max-vertical-offset="33847" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/mayavi/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/math.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="4" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.33216783" vertical-offset="779" max-vertical-offset="6018" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdfanumpy_map.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="127" selection-start="14568" selection-end="14569" vertical-scroll-proportion="-4.5070424" vertical-offset="1535" max-vertical-offset="1836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/path_log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4078" selection-start="4078" selection-end="4078" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planned_path.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="0" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="1938" />
@@ -448,43 +456,80 @@
         <state line="211" column="4" selection-start="7098" selection-end="7098" vertical-scroll-proportion="0.0" vertical-offset="3397" max-vertical-offset="86683" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="222" selection-end="222" vertical-scroll-proportion="0.05944056" vertical-offset="0" max-vertical-offset="1870" />
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd_breakpoints.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="0" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0" vertical-offset="1126" max-vertical-offset="3349" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global_planner_a_star.py">
+    <entry file="file://C:/Python27/Lib/site-packages/scipy/ndimage/filters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1631" selection-end="1631" vertical-scroll-proportion="0.0" vertical-offset="592" max-vertical-offset="2567">
-          <folding />
-        </state>
+        <state line="1142" column="0" selection-start="38684" selection-end="38684" vertical-scroll-proportion="0.0" vertical-offset="18863" max-vertical-offset="19448" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trash.py">
+    <entry file="file://$PROJECT_DIR$/map.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+        <state line="2" column="5" selection-start="879" selection-end="879" vertical-scroll-proportion="0.05989111" vertical-offset="1" max-vertical-offset="1870" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="430" column="59" selection-start="14756" selection-end="14756" vertical-scroll-proportion="0.6787659" vertical-offset="6936" max-vertical-offset="60333" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="428" column="0" selection-start="14893" selection-end="14893" vertical-scroll-proportion="0.0" vertical-offset="6860" max-vertical-offset="24225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_star_lite_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="21" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1887" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/mayavi/tools/sources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="921" column="0" selection-start="31824" selection-end="31824" vertical-scroll-proportion="0.0" vertical-offset="15248" max-vertical-offset="24429" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="956" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/local_planner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="0" selection-start="3346" selection-end="3346" vertical-scroll-proportion="0.0" vertical-offset="1723" max-vertical-offset="2295">
+        <state line="40" column="0" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0" vertical-offset="599" max-vertical-offset="2227">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.py">
+    <entry file="file://$PROJECT_DIR$/image_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="8" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.26153848" vertical-offset="816" max-vertical-offset="1955">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state line="7" column="83" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planner_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="89" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global_planner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="25" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_star_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="39" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.3629764" vertical-offset="395" max-vertical-offset="1955">
+          <folding />
         </state>
       </provider>
     </entry>

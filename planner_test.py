@@ -1,5 +1,5 @@
 __author__ = 'Ildar_Gilmutdinov'
-import global_planner_a_star
+import global_planner
 
 import sys
 from mayavi import mlab
@@ -20,8 +20,10 @@ with open('C:\Users\Ildar_Gilmutdinov\Documents\Python projects\RoR_AI\path_log.
     planner.showPath()
 '''
 
-planner = global_planner_a_star.PlannerAstar()
-planner.readData('C:\Users\Ildar_Gilmutdinov\Documents\Python projects\RoR_AI\map.txt')
-planner.setStartAndGoal(3,3,45)
+planner = global_planner.GlobalPlanner()
+#planner.readDataFromTxt('C:\Users\Ildar_Gilmutdinov\Documents\Python projects\RoR_AI\map.txt')
+planner.readDataFromRaw('C:\Users\Ildar_Gilmutdinov\Documents\Python projects\RoR_AI\map2.raw')
+planner.setStartAndGoal(3,90,45)
+#planner.setStartAndGoal(42,90,45)
 planner.planPath()
 planner.showPath()
